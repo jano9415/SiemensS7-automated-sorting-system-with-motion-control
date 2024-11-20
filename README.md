@@ -7,10 +7,15 @@ This system automates the measuring and sorting process for items based on size 
 Main steps of the process:
 
 First step: The labourer or a robot places the item on the conveyor. The conveyor coveys the item.
+
 Second step: An analog sensor measures the size of the item. It can be small and non metal item, small and metal, large and non metal, large and metal.
+
 Third step: An inductive sensor checks if the item is metallic.
+
 Fourth step: An analog load cell measures the weight of the item.
+
 Fifth step: The item moves forward on a servo controlled table and the servo motor moves this table to the accurate position.
+
 Sixth step: After reaching the appropriate position a cyclinder pushes the item in the expected bin.
 
 Bins:
