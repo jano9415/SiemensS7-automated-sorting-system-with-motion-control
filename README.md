@@ -62,6 +62,14 @@ Network3 contains the PostgreSql server.
 Network4 contains the React application.
 
 ![image](https://github.com/user-attachments/assets/0f6149e2-b5fa-49a8-a83a-74fb3bfa3f41)
+![image](https://github.com/user-attachments/assets/c41ad573-c72d-4659-ba57-3580f40e9563)
+![image](https://github.com/user-attachments/assets/08301573-8600-4cfc-bbf7-28c382ad94c4)
+![image](https://github.com/user-attachments/assets/2e5208f3-6026-4a39-a6be-148e98ea7cd9)
+![image](https://github.com/user-attachments/assets/10ecefea-eafb-49f9-891d-600cea8b652c)
+
+
+
+
 
 
 
