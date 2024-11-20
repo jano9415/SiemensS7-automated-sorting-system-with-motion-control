@@ -1,6 +1,6 @@
 # SiemensS7-automated-sorting-system
 
-![image](https://github.com/user-attachments/assets/6428dd24-0d1b-4717-aa35-aaa21168ee71)
+      ![image](https://github.com/user-attachments/assets/6428dd24-0d1b-4717-aa35-aaa21168ee71)
 
 
 
