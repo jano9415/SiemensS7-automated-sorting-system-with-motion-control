@@ -6,7 +6,7 @@ This system automates the measuring and sorting process for items based on size 
 
 Main steps of the process:
 
-First step: The labourer or a robot places the item on the conveyor. The conveyor coveys the item.
+First step: The labourer or a robot places the item on the inverter controlled conveyor. The conveyor coveys the item.
 
 Second step: An analog sensor measures the size of the item. It can be small and non metal item, small and metal, large and non metal, large and metal.
 
@@ -16,16 +16,23 @@ Fourth step: An analog load cell measures the weight of the item.
 
 Fifth step: The item moves forward on a servo controlled table and the servo motor moves this table to the accurate position.
 
-Sixth step: After reaching the appropriate position a cyclinder pushes the item in the expected bin.
+Sixth step: After reaching the appropriate position a cyclinder pushes the item in the expected bin for further process.
 
 Bins:
 
 Bin 1:	Small and non metal
+
 Bin 2:	Small and metal
+
 Bin 3:	Large and not metal
+
 Bin 4:	Large and metal
 
 
 Components of the entire system:
+
+PLC1: It controls the the measuring and sorting system. It is an OPC-UA server to communicate with the NodeJs javascript based OPC-UA client. It communicates with PLC2 with TSEND_C and TRCV_C open user communication.
+
+PLC2: It is part of an other system and it controls the further processes after the item get into the expected bin. An optical sensor checks the saturation of each bin and sends this boolean variable to PLC1. If one of the bins are full, the item doest'n move on the servo based table because a cylinder holds the item in place at the end of the inverter controlled conveyor.
 
 
