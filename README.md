@@ -1,5 +1,8 @@
 # SiemensS7-automated-sorting-system
 
+The architecture of the system in localhost:
+
+
 ![Image23](https://github.com/user-attachments/assets/85ab0c34-80d1-4ffd-8bc7-82497ed3a24c)
 
 This system automates the measuring and sorting process for items based on size and material. The system contains digital inputs, digital outputs, analog inputs, analog outputs, servo motor for precise control, communication between two Siemens PLC with TSEND_C and TRCV_C function blocks, HMI for display and control, OPC-UA communication between NodeJs application and Siemens PLC, NodeJs HTTP server to receive the HTTP request from React client application, web application with React for monitoring and control of the system remotely, PostgreSql to store data in database.
@@ -39,6 +42,8 @@ HMI: It indicates the sensors, the position of the item, the state of cylinders,
 
 NodeJs javascripts based application: It is an OPC-UA client to send and receive data from PLC1. It is a HTTP server too, and the data from the PLC1 are sent to React application via HTTP protocoll.
 
-React: It is a javascript based frontend application. The states of the system can be ckecked in the browser remotely from anywhere. 
+React: It is a javascript based frontend application. The states of the system can be ckecked in the browser remotely from anywhere.
+
+PostgreSql server: It holds the data in datatables.
 
 
