@@ -22,7 +22,8 @@ Fifth step: The item moves forward on a servo controlled table and the servo mot
 
 Sixth step: After reaching the appropriate position a cyclinder pushes the item in the expected bin for further process.
 
-Bins:
+![image](https://github.com/user-attachments/assets/3dba5d68-63f3-4a0c-854e-e54f818e60fd)
+
 
 Bin 1:	Small and non metal
 
@@ -33,7 +34,8 @@ Bin 3:	Large and not metal
 Bin 4:	Large and metal
 
 
-Components of the entire system:
+![image](https://github.com/user-attachments/assets/884ace3b-d37e-4754-8750-5ad7aa9c4aeb)
+
 
 PLC1: It controls the the measuring and sorting system. It is an OPC-UA server to communicate with the NodeJs javascript based OPC-UA client. It communicates with PLC2 with TSEND_C and TRCV_C open user communication.
 
@@ -47,7 +49,8 @@ React: It is a javascript based frontend application. The states of the system c
 
 PostgreSql server: It holds the data in datatables.
 
-Networks, when the system doesn't operate in localhost:
+![image](https://github.com/user-attachments/assets/b5af0f9d-c7bf-4b7a-8ef0-4eae5113bfa6)
+
 
 Network1 contains PLC1, PLC2, servo drive and HMI.
 
