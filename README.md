@@ -1,6 +1,7 @@
 # SiemensS7-automated-sorting-system
 
-The architecture of the system in localhost:
+![image](https://github.com/user-attachments/assets/6428dd24-0d1b-4717-aa35-aaa21168ee71)
+
 
 
 ![Image23](https://github.com/user-attachments/assets/85ab0c34-80d1-4ffd-8bc7-82497ed3a24c)
