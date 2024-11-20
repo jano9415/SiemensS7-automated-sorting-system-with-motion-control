@@ -35,4 +35,10 @@ PLC1: It controls the the measuring and sorting system. It is an OPC-UA server t
 
 PLC2: It is part of an other system and it controls the further processes after the item get into the expected bin. An optical sensor checks the saturation of each bin and sends this boolean variable to PLC1. If one of the bins are full, the item doest'n move on the servo based table because a cylinder holds the item in place at the end of the inverter controlled conveyor.
 
+HMI: It indicates the sensors, the position of the item, the state of cylinders, the position of servo controlled table and the labourer can manage the system for example start or stop the progress.
+
+NodeJs javascripts based application: It is an OPC-UA client to send and receive data from PLC1. It is a HTTP server too, and the data from the PLC1 are sent to React application via HTTP protocoll.
+
+React: It is a javascript based frontend application. The states of the system can be ckecked in the browser remotely from anywhere. 
+
 
