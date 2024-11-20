@@ -42,8 +42,18 @@ HMI: It indicates the sensors, the position of the item, the state of cylinders,
 
 NodeJs javascripts based application: It is an OPC-UA client to send and receive data from PLC1. It is a HTTP server too, and the data from the PLC1 are sent to React application via HTTP protocoll.
 
-React: It is a javascript based frontend application. The states of the system can be ckecked in the browser remotely from anywhere.
+React: It is a javascript based frontend application. The states of the system can be ckecked in the browser remotely from anywhere. Just type the ip address of the React application and the system can be monitored and managed from anywhere.
 
 PostgreSql server: It holds the data in datatables.
+
+Networks, when the system doesn't operate in localhost:
+
+Network1 contains PLC1, PLC2, servo drive and HMI.
+
+Network2 contains the NodeJs application
+
+Network3 contains the PostgreSql server.
+
+Network4 contains the React application.
 
 
