@@ -7,7 +7,8 @@ The architecture of the system in localhost:
 
 This system automates the measuring and sorting process for items based on size and material. The system contains digital inputs, digital outputs, analog inputs, analog outputs, servo motor for precise control, communication between two Siemens PLC with TSEND_C and TRCV_C function blocks, HMI for display and control, OPC-UA communication between NodeJs application and Siemens PLC, NodeJs HTTP server to receive the HTTP request from React client application, web application with React for monitoring and control of the system remotely, PostgreSql to store data in database.
 
-Main steps of the process:
+![image](https://github.com/user-attachments/assets/299110dd-fee4-43ca-92d7-b0f2a4fba107)
+
 
 First step: The labourer or a robot places the item on the inverter controlled conveyor. The conveyor coveys the item.
 
