@@ -11,7 +11,7 @@ This system automates the measuring and sorting process for items based on size 
 ![image](https://github.com/user-attachments/assets/299110dd-fee4-43ca-92d7-b0f2a4fba107)
 
 
-First step: The labourer or a robot places the item on the inverter controlled conveyor. The conveyor conveys the item.
+First step: The labourer or a robot places the item on the inverter controlled conveyor. The conveyor conveys the item forward.
 
 Second step: An analog sensor measures the size of the item. It can be small and non metal item, small and metal, large and non metal, large and metal.
 
