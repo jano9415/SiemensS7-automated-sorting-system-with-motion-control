@@ -4,7 +4,8 @@
 
 
 
-![Image23](https://github.com/user-attachments/assets/85ab0c34-80d1-4ffd-8bc7-82497ed3a24c)
+![Image23](https://github.com/user-attachments/assets/17e363b3-a777-49f8-b201-68dbf8b8c63c)
+
 
 This system automates the measuring and sorting process for items based on size and material. The system contains digital inputs, digital outputs, analog inputs, analog outputs, servo motor for precise control, communication between two Siemens PLC with TSEND_C and TRCV_C function blocks, HMI for display and control, OPC-UA communication between NodeJs application and Siemens PLC, NodeJs HTTP server to receive the HTTP request from React client application, web application with React for monitoring and control of the system remotely, PostgreSql to store data in database.
 
