@@ -1,25 +1,42 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
+import UserMenuComponent from './Components/UserMenuComponent';
+import HomeComponent from './Components/HomeComponent';
+import { useEffect } from 'react';
 
-function App() {
+
+const App = () => {
+
+
+
+  useEffect(() => {
+
+
+  }, []);
+
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+
+      <Router>
+
+        <UserMenuComponent />
+
+
+        <div className='container'>
+          <Routes>
+            <Route exact path='/' element={<HomeComponent />} />
+
+          </Routes>
+        </div>
+
+      </Router>
+
     </div>
   );
 }
+
+
 
 export default App;
