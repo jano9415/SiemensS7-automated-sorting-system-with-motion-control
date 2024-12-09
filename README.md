@@ -80,7 +80,7 @@ Main screen in the HMI:
 
 Inputs screen in the HMI:
 
-![image](https://github.com/user-attachments/assets/31ef3993-29ac-4822-aab3-564674d8ebe4)
+![image](https://github.com/user-attachments/assets/d57d7fa9-01aa-42c1-8eed-f6b5ce46c9d2)
 
 Manual motion screen in the HMI:
 
