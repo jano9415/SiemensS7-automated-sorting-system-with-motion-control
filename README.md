@@ -90,6 +90,11 @@ Servo motion screen in the HMI:
 
 ![image](https://github.com/user-attachments/assets/dcd7db7b-f0f0-4d5c-97d2-4fa722bde0c0)
 
+Menu in react web application:
+
+![image](https://github.com/user-attachments/assets/9eb436e0-f119-4e9e-8563-3abbf0c77789)
+
+
 
 
 
