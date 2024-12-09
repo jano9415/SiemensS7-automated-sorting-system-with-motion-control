@@ -64,15 +64,43 @@ Network4 contains the React application.
 
 ![image](https://github.com/user-attachments/assets/c6fa57cf-2367-4d0c-872f-12f5ee897fe5)
 
-![image](https://github.com/user-attachments/assets/0f6149e2-b5fa-49a8-a83a-74fb3bfa3f41)
+![image](https://github.com/user-attachments/assets/e4d9956c-7da2-42ef-ad3e-463fb4dbc924)
 
-![image](https://github.com/user-attachments/assets/c41ad573-c72d-4659-ba57-3580f40e9563)
+![image](https://github.com/user-attachments/assets/76baa081-a7ec-4f08-adf6-6c8e844b9621)
 
-![image](https://github.com/user-attachments/assets/08301573-8600-4cfc-bbf7-28c382ad94c4)
+![image](https://github.com/user-attachments/assets/64882e8a-e933-4e6c-8e7a-f088d039b6d0)
 
-![image](https://github.com/user-attachments/assets/2e5208f3-6026-4a39-a6be-148e98ea7cd9)
+![image](https://github.com/user-attachments/assets/c297853b-4e4d-4392-8f76-1fbe626f571d)
 
-![image](https://github.com/user-attachments/assets/10ecefea-eafb-49f9-891d-600cea8b652c)
+![image](https://github.com/user-attachments/assets/dea1ace9-7fbb-4e59-b6f6-0c3d5a3d7bac)
+
+Main screen in the HMI:
+
+![image](https://github.com/user-attachments/assets/2ed0b76f-ce52-401a-8df6-374a13e57098)
+
+Inputs screen in the HMI:
+
+![image](https://github.com/user-attachments/assets/31ef3993-29ac-4822-aab3-564674d8ebe4)
+
+Manual motion screen in the HMI:
+
+![image](https://github.com/user-attachments/assets/a4c05caf-f822-4038-885b-883a150f6617)
+
+Servo motion screen in the HMI:
+
+![image](https://github.com/user-attachments/assets/dcd7db7b-f0f0-4d5c-97d2-4fa722bde0c0)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
