@@ -27,13 +27,13 @@ Sixth step: After reaching the appropriate position a cyclinder pushes the item 
 ![image](https://github.com/user-attachments/assets/3dba5d68-63f3-4a0c-854e-e54f818e60fd)
 
 
-Bin 1:	Small and non metal
+Bin 1:	Small and non metal. The size is between 10cm and 20cm and the weigth is less then 5kg and non metal.
 
-Bin 2:	Small and metal
+Bin 2:	Small and metal. The size is between 10cm and 20cm and the weigth is less then 5kg and metal.
 
-Bin 3:	Large and not metal
+Bin 3:	Large and non metal. The size is more then 20cm and the weight is more then 5kg and non metal.
 
-Bin 4:	Large and metal
+Bin 4:	Large and metal. The size is more then 20cm and the weight is more then 5kg and metal.
 
 
 ![image](https://github.com/user-attachments/assets/884ace3b-d37e-4754-8750-5ad7aa9c4aeb)
