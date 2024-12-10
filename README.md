@@ -74,6 +74,17 @@ Network4 contains the React application.
 
 ![image](https://github.com/user-attachments/assets/dea1ace9-7fbb-4e59-b6f6-0c3d5a3d7bac)
 
+Function, function blocks, data blocks, technology objects, PLC tags, HMI screens and HMI tags in Tia Portal:
+
+![image](https://github.com/user-attachments/assets/306b5f35-6e97-4340-875d-90b84b3e2b87)
+
+![image](https://github.com/user-attachments/assets/975c3008-fe8c-4acb-ba3a-bd6f38ce2415)
+
+![image](https://github.com/user-attachments/assets/360b23d1-d1c8-45ad-a588-7721426fa7a7)
+
+![image](https://github.com/user-attachments/assets/81507abf-7ff2-4c2a-a6c5-6f744a580be7)
+
+
 Main screen in the HMI:
 
 ![image](https://github.com/user-attachments/assets/2ed0b76f-ce52-401a-8df6-374a13e57098)
