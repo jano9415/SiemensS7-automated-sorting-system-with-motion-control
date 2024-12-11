@@ -88,8 +88,9 @@ Function, function blocks, data blocks, technology objects, PLC tags, HMI screen
 Main screen in the HMI after pushing the control 24V button for two seconds. There is 24V for the output modules and this is indicated by the blue light (for test case, on the screen) and the text on the screen.
 ![image](https://github.com/user-attachments/assets/dd25bc95-6584-40f5-9dc3-69c2ef591286)
 
+In order to start the conveyor switch the automatic mode and push the Start conveyor button for 2 seconds. The yellow light shows that the conveyor moves.
+![image](https://github.com/user-attachments/assets/0677035c-d478-4201-bcbb-e94b4baf1efb)
 
-![image](https://github.com/user-attachments/assets/2ed0b76f-ce52-401a-8df6-374a13e57098)
 
 Inputs screen in the HMI:
 
