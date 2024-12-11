@@ -91,6 +91,10 @@ Main screen in the HMI after pushing the control 24V button for two seconds. The
 In order to start the conveyor switch the automatic mode and push the Start conveyor button for 2 seconds. The yellow light shows that the conveyor moves.
 ![image](https://github.com/user-attachments/assets/0677035c-d478-4201-bcbb-e94b4baf1efb)
 
+Put the item on the conveyor. The item starts and the green light goes on indicating that there is an item in the system and the yellow light goes off. The program mesures the size and weight and decides the material. Finally calculating the breed from the previous data.
+![image](https://github.com/user-attachments/assets/f9bbdaa6-c723-41f7-9e39-3ab2489b2ef7)
+
+
 
 Inputs screen in the HMI:
 
