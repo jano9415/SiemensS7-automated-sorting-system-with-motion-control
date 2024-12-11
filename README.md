@@ -94,6 +94,9 @@ In order to start the conveyor switch the automatic mode and push the Start conv
 Put the item on the conveyor. The item starts and the green light goes on indicating that there is an item in the system and the yellow light goes off. The program mesures the size and weight and decides the material. Finally calculating the breed from the previous data.
 ![image](https://github.com/user-attachments/assets/f9bbdaa6-c723-41f7-9e39-3ab2489b2ef7)
 
+If the table is at home psition, the cylinder in the end of the conveyor moves backward and the item moves on the table. The servo motor carries the table to the appropriate psotion. In this example the item is small and metal, so it should be moved to bin 2.
+
+
 
 
 Inputs screen in the HMI:
