@@ -118,6 +118,9 @@ You can control the outputs by manual on this screen. I can add as many outputs 
 ![image](https://github.com/user-attachments/assets/a4c05caf-f822-4038-885b-883a150f6617)
 
 Servo motion screen in the HMI:
+You can move the servo motor by manual on this screen. By typing the jog velocity in the input field and clicking the Jog+ or Jog-, you can move the servo controlled table forward or backward. By clicking the Home button, the tables moves to home. By clicking the Bin1 button, the tables moves to the position of bin 1. Bin2, Bin3 and Bin4 buttons have the same function.
+
+If the table is not in the right position for any reason: Move the table with Jog+ and Jog- buttons to the appropriate position and click Bin1, Bin2, Bin3 or Bin4 button beneath "Save new position" text. After the table moves to this new position.
 
 ![image](https://github.com/user-attachments/assets/dcd7db7b-f0f0-4d5c-97d2-4fa722bde0c0)
 
