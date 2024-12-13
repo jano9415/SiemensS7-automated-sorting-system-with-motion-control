@@ -125,6 +125,7 @@ If the table is not in the right position for any reason: Move the table with Jo
 ![image](https://github.com/user-attachments/assets/dcd7db7b-f0f0-4d5c-97d2-4fa722bde0c0)
 
 Menu in react web application:
+The system can be reached from anywhere by the web browser using OPC-UA and HTTP communication. I can make the same functionality as the HMI has with any inputs, outputs, texts and information. I've created just the main menu in this application and the basic communication between react and nodeJs and between nodeJs and the PLC. I will add functions to this application, but now I focus on the PLC side.
 
 ![image](https://github.com/user-attachments/assets/9eb436e0-f119-4e9e-8563-3abbf0c77789)
 
