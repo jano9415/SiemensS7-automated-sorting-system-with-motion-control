@@ -100,7 +100,7 @@ If the table is at home position and the proper bin is not full (this data comes
 
 If the bin is not full (this data comes from PLC2 using TCP/IP communication with TSEND and TRCV blocks) the cylinder situated on the table pushes the item into the bin. If the item passes in front of the sensor during heading towards the bin and the cylinder in back position on the servo controlled table, the table moves back to home position and the cycle end. There is no item in the system any more.
 
-![image](https://github.com/user-attachments/assets/fd86a623-beca-45cc-a262-e24efb9d6e08)
+![image](https://github.com/user-attachments/assets/95466eb6-2b8a-43b3-8a11-e8b4570eccf2)
 
 This is the plain operation but I have been adding new functions to the system to practise as many things as I can and creating a more complex project with more and more logic.
 
