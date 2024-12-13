@@ -108,10 +108,12 @@ This is the plain operation but I have been adding new functions to the system t
 
 
 Inputs screen in the HMI:
+You can see on this screen the inputs from the sensors. I can add as many sensors as I can. More inputs are the same as these ones.
 
 ![image](https://github.com/user-attachments/assets/d57d7fa9-01aa-42c1-8eed-f6b5ce46c9d2)
 
 Manual motion screen in the HMI:
+You can control the outputs by manual on this screen. I can add as many outputs as I can. More outputs are the same as these ones.
 
 ![image](https://github.com/user-attachments/assets/a4c05caf-f822-4038-885b-883a150f6617)
 
