@@ -94,7 +94,15 @@ In order to start the conveyor switch the automatic mode and push the Start conv
 Put the item on the conveyor. The item starts and the green light goes on indicating that there is an item in the system and the yellow light goes off. The program mesures the size and weight and decides the material. Finally calculating the breed from the previous data.
 ![image](https://github.com/user-attachments/assets/f9bbdaa6-c723-41f7-9e39-3ab2489b2ef7)
 
-If the table is at home position, the cylinder in the end of the conveyor moves backward and the item moves on the table. The servo motor carries the table to the appropriate postion. In this example the item is small and metal, so it should be moved to bin 2.
+If the table is at home position and the proper bin is not full (this data comes from PLC2 using TCP/IP communication with TSEND and TRCV blocks) then the cylinder in the end of the conveyor moves backward and the item moves on the table. The servo motor carries the table to the appropriate postion. In this example the item is small and metal, so it should be moved to bin 2.
+
+![image](https://github.com/user-attachments/assets/33f75b11-f0e2-41a2-8828-a3e64d2099af)
+
+If the bin is not full (this data comes from PLC2 using TCP/IP communication with TSEND and TRCV blocks) the cylinder situated on the table pushes the item into the bin. If the item passes in front of the sensor during heading towards the bin and the cylinder in back position on the servo controlled table, the table moves back to home position and the cycle end. There is no item in the system any more.
+
+![image](https://github.com/user-attachments/assets/fd86a623-beca-45cc-a262-e24efb9d6e08)
+
+This is the plain operation but I have been adding new functions to the system to practise as many things as I can and creating a more complex project with more and more logic.
 
 
 
