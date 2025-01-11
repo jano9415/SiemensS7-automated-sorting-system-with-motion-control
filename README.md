@@ -110,7 +110,7 @@ If in this case the "Acknowledge button" is pushed, the control 24V doesn't come
 
 Global acknowledgment:
 
-If an error occures in the safety system we use the same "Acknowledge button" to make the saftey PLC operating again.
+If communication error occures in the safety system we need to reintegrate the safety PLC. In order to do this we use the same "Acknowledge button" to make the safety PLC operating again.
 
 ![image](https://github.com/user-attachments/assets/a1acb2d3-7fec-4932-b95d-59225106c647)
 
