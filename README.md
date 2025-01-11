@@ -84,24 +84,82 @@ Function, function blocks, data blocks, technology objects, PLC tags, HMI screen
 
 ![image](https://github.com/user-attachments/assets/81507abf-7ff2-4c2a-a6c5-6f744a580be7)
 
+Safety PLC operation:
 
-Main screen in the HMI:
+This is the sefety PLC. It provides power supply for the output modules of PLC1. This makes the "B1" voltage level.
 
-![image](https://github.com/user-attachments/assets/2ed0b76f-ce52-401a-8df6-374a13e57098)
+![image](https://github.com/user-attachments/assets/63cb235d-abd7-4424-a243-c5726212516a)
+
+There are four emergency buttons in the system. None of them are pushed but without pushing the "Acknowledge button" there is no control 24V for the output modules of PLC1. The "B1 voltage" is false.
+
+![image](https://github.com/user-attachments/assets/8be260cf-164c-4c93-abdc-930fc76ee1d3)
+
+After pushing the "Acknowledge button", there is control 24V. "B1 voltage" is true.
+
+![image](https://github.com/user-attachments/assets/f53adc4c-8d50-45cb-9633-5e333876d5a2)
+
+![image](https://github.com/user-attachments/assets/52de241f-b9bc-40ed-8e61-b03156aa93fb)
+
+If one of the emergency buttons are pushed, there is no control 24V any more. "B1 voltage" is false. In this case "E button1" is pushed.
+
+![image](https://github.com/user-attachments/assets/508942a1-7463-4c2c-87b2-aaf56cb0a91b)
+
+If in this case the "Acknowledge button" is pushed, the control 24V doesn't come back because "E button1" is pushed. In order to make control 24V again the "E button1" has to be released. After pushing the "Acknowledge button", there is control 24V again. "B1 voltage" is true.
+
+![image](https://github.com/user-attachments/assets/b0e586bd-fede-4bd1-a07c-1b425bb5a668)
+
+Global acknowledgment:
+
+If communication error occures in the safety system we need to reintegrate the safety PLC. In order to do this we use the same "Acknowledge button" to make the safety PLC operating again.
+
+![image](https://github.com/user-attachments/assets/a1acb2d3-7fec-4932-b95d-59225106c647)
+
+
+
+
+
+
+Main screen in the HMI after pushing the control 24V button for two seconds. There is 24V for the output modules and this is indicated by the blue light (for test case, on the screen) and the text on the screen.
+![image](https://github.com/user-attachments/assets/dd25bc95-6584-40f5-9dc3-69c2ef591286)
+
+In order to start the conveyor switch the automatic mode and push the Start conveyor button for 2 seconds. The yellow light shows that the conveyor moves.
+![image](https://github.com/user-attachments/assets/0677035c-d478-4201-bcbb-e94b4baf1efb)
+
+Put the item on the conveyor. The item starts and the green light goes on indicating that there is an item in the system and the yellow light goes off. The program mesures the size and weight and decides the material. Finally calculating the breed from the previous data.
+![image](https://github.com/user-attachments/assets/f9bbdaa6-c723-41f7-9e39-3ab2489b2ef7)
+
+If the table is at home position and the proper bin is not full (this data comes from PLC2 using TCP/IP communication with TSEND and TRCV blocks) then the cylinder in the end of the conveyor moves backward and the item moves on the table. The servo motor carries the table to the appropriate postion. In this example the item is small and metal, so it should be moved to bin 2.
+
+![image](https://github.com/user-attachments/assets/33f75b11-f0e2-41a2-8828-a3e64d2099af)
+
+If the bin is not full (this data comes from PLC2 using TCP/IP communication with TSEND and TRCV blocks) the cylinder situated on the table pushes the item into the bin. If the item passes in front of the sensor during heading towards the bin and the cylinder in back position on the servo controlled table, the table moves back to home position and the cycle end. There is no item in the system any more.
+
+![image](https://github.com/user-attachments/assets/95466eb6-2b8a-43b3-8a11-e8b4570eccf2)
+
+This is the plain operation but I have been adding new functions to the system to practise as many things as I can and creating a more complex project with more and more logic.
+
+
+
 
 Inputs screen in the HMI:
+You can see on this screen the inputs from the sensors. I can add as many sensors as I can. More inputs are the same as these ones.
 
 ![image](https://github.com/user-attachments/assets/d57d7fa9-01aa-42c1-8eed-f6b5ce46c9d2)
 
 Manual motion screen in the HMI:
+You can control the outputs by manual on this screen. I can add as many outputs as I can. More outputs are the same as these ones.
 
 ![image](https://github.com/user-attachments/assets/a4c05caf-f822-4038-885b-883a150f6617)
 
 Servo motion screen in the HMI:
+You can move the servo motor by manual on this screen. By typing the jog velocity in the input field and clicking the Jog+ or Jog-, you can move the servo controlled table forward or backward. By clicking the Home button, the tables moves to home. By clicking the Bin1 button, the tables moves to the position of bin 1. Bin2, Bin3 and Bin4 buttons have the same function.
+
+If the table is not in the right position for any reason: Move the table with Jog+ and Jog- buttons to the appropriate position and click Bin1, Bin2, Bin3 or Bin4 button beneath "Save new position" text. After the table moves to this new position.
 
 ![image](https://github.com/user-attachments/assets/dcd7db7b-f0f0-4d5c-97d2-4fa722bde0c0)
 
 Menu in react web application:
+The system can be reached from anywhere by the web browser using OPC-UA and HTTP communication. I can make the same functionality as the HMI has with any inputs, outputs, texts and information. I've created just the main menu in this application and the basic communication between react and nodeJs and between nodeJs and the PLC. I will add functions to this application, but now I focus on the PLC side.
 
 ![image](https://github.com/user-attachments/assets/9eb436e0-f119-4e9e-8563-3abbf0c77789)
 
