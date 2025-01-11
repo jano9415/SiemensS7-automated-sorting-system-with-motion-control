@@ -94,15 +94,19 @@ There are four emergency buttons in the system. None of them are pushed but with
 
 ![image](https://github.com/user-attachments/assets/8be260cf-164c-4c93-abdc-930fc76ee1d3)
 
-After pushing the the "Acknowledge button", there is control 24V.
+After pushing the "Acknowledge button", there is control 24V. "B1 voltage" is true.
 
 ![image](https://github.com/user-attachments/assets/f53adc4c-8d50-45cb-9633-5e333876d5a2)
 
 ![image](https://github.com/user-attachments/assets/52de241f-b9bc-40ed-8e61-b03156aa93fb)
 
-If one of the emergency buttons are pushed, there is no control 24V any more.
+If one of the emergency buttons are pushed, there is no control 24V any more. "B1 voltage" is false. In this case "E button1" is pushed.
 
+![image](https://github.com/user-attachments/assets/508942a1-7463-4c2c-87b2-aaf56cb0a91b)
 
+If in this case the "Acknowledge button" is pushed, the control 24V doesn't come back because "E button1" is pushed. In order to make control 24V again the "E button1" has to be released. After pushing the "Acknowledge button", there is control 24V again. "B1 voltage" is true.
+
+![image](https://github.com/user-attachments/assets/b0e586bd-fede-4bd1-a07c-1b425bb5a668)
 
 
 
