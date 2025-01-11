@@ -84,6 +84,17 @@ Function, function blocks, data blocks, technology objects, PLC tags, HMI screen
 
 ![image](https://github.com/user-attachments/assets/81507abf-7ff2-4c2a-a6c5-6f744a580be7)
 
+Safety PLC operation:
+
+This is the sefety PLC. It gives power supply for the output modules of PLC1. This makes the "B1" voltage level.
+
+![image](https://github.com/user-attachments/assets/63cb235d-abd7-4424-a243-c5726212516a)
+
+There are four emergency buttons in the system. None of them are pushed but without pushing the "Acknowledge button" there is no control 24V for the output modules of PLC1. The "B1 voltage" is false.
+![image](https://github.com/user-attachments/assets/8be260cf-164c-4c93-abdc-930fc76ee1d3)
+
+
+
 
 Main screen in the HMI after pushing the control 24V button for two seconds. There is 24V for the output modules and this is indicated by the blue light (for test case, on the screen) and the text on the screen.
 ![image](https://github.com/user-attachments/assets/dd25bc95-6584-40f5-9dc3-69c2ef591286)
