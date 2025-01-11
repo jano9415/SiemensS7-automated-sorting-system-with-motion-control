@@ -86,7 +86,7 @@ Function, function blocks, data blocks, technology objects, PLC tags, HMI screen
 
 Safety PLC operation:
 
-This is the sefety PLC. It gives power supply for the output modules of PLC1. This makes the "B1" voltage level.
+This is the sefety PLC. It provides power supply for the output modules of PLC1. This makes the "B1" voltage level.
 
 ![image](https://github.com/user-attachments/assets/63cb235d-abd7-4424-a243-c5726212516a)
 
