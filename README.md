@@ -108,6 +108,13 @@ If in this case the "Acknowledge button" is pushed, the control 24V doesn't come
 
 ![image](https://github.com/user-attachments/assets/b0e586bd-fede-4bd1-a07c-1b425bb5a668)
 
+Global acknowledgment:
+
+If an error occures in the safety system we use the same "Acknowledge button" to make the saftey PLC operating again.
+
+![image](https://github.com/user-attachments/assets/a1acb2d3-7fec-4932-b95d-59225106c647)
+
+
 
 
 
