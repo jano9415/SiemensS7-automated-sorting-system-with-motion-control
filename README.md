@@ -91,7 +91,19 @@ This is the sefety PLC. It gives power supply for the output modules of PLC1. Th
 ![image](https://github.com/user-attachments/assets/63cb235d-abd7-4424-a243-c5726212516a)
 
 There are four emergency buttons in the system. None of them are pushed but without pushing the "Acknowledge button" there is no control 24V for the output modules of PLC1. The "B1 voltage" is false.
+
 ![image](https://github.com/user-attachments/assets/8be260cf-164c-4c93-abdc-930fc76ee1d3)
+
+After pushing the the "Acknowledge button", there is control 24V.
+
+![image](https://github.com/user-attachments/assets/f53adc4c-8d50-45cb-9633-5e333876d5a2)
+
+![image](https://github.com/user-attachments/assets/52de241f-b9bc-40ed-8e61-b03156aa93fb)
+
+If one of the emergency buttons are pushed, there is no control 24V any more.
+
+
+
 
 
 
